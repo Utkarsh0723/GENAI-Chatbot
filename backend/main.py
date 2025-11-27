@@ -20,7 +20,7 @@ app = FastAPI(title="GenAI Chatbot API", version="1.0.0")
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],  # Next.js and Vite ports
+    allow_origins=["*"],  # Allow all origins for now - update with your Netlify URL after deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
