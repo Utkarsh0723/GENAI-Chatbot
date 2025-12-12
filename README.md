@@ -227,21 +227,4 @@ chatbot/
 - Ensure EventSource/fetch streaming is supported in your browser
 - Verify backend is sending proper SSE format
 
-## 📄 License
 
-This project is open source and available for educational purposes.
-
-## 🙏 Acknowledgments
-
-- **Google Gemini AI** - For the powerful LLM API
-- **FastAPI** - For the excellent Python web framework
-- **Next.js** - For the modern React framework
-- **Vercel** - For the amazing deployment platform
-
-## 📧 Support
-
-For issues, questions, or contributions, please open an issue on the project repository.
-
----
-
-Built with ❤️ using Next.js, FastAPI, and Google Gemini AI
